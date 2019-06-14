@@ -1,0 +1,146 @@
+body {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    color:#FFF;
+   
+}
+
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+  height:100%;
+    
+}
+
+.landing_image {
+  padding-top:160px;
+  height: 100VH;
+  width: 100%;
+  min-height:400px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: 
+ url('../images/forest_sun_landingpage.jpg');
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+  background-color: #353333;
+  border-color: #353333;
+}
+
+.affix-top {
+  /* navbar style at top */
+  background:transparent;
+  border-color:transparent;
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease; 
+  -o-transition:all 0.5s ease;         
+  transition:all 0.5s ease;  
+}
+
+.affix-top .nav>li>a {
+   color: #000;
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+
+
+/*--------------------- NAVBAR ------------------------------------------*/
+
+
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+    padding-top: 45px;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-width: .5px .5px .5px .5px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.navbar .navbar-brand {
+    padding-top: 15px;
+    color:#FFF
+}
+
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 180px;
+    text-align: center;
+
+}
+
+.btn-red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 24px;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
